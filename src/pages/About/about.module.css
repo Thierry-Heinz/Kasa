@@ -1,0 +1,40 @@
+.about {
+  margin-top: 44px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  max-width: var(--max-width);
+}
+
+.collapses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 31px;
+  margin-top: 31px;
+  width: 100%;
+  max-width: 1023px;
+}
+
+@media screen and (max-width: 1280px) {
+  .about {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .about {
+    margin-top: 16px;
+    margin-bottom: 66px;
+  }
+  .about :global(.banner) {
+    height: 223px;
+  }
+  .collapses {
+    margin-top: 19px;
+    gap: 20px;
+  }
+}

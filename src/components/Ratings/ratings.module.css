@@ -1,0 +1,20 @@
+.ratings {
+  display: flex;
+  justify-content: flex-end;
+  height: fit-content;
+}
+
+.ratings img {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (max-width: 375px) {
+  .ratings {
+    gap: 2px;
+  }
+  .ratings img {
+    width: 18px;
+    height: 18px;
+  }
+}

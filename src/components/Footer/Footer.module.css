@@ -1,0 +1,33 @@
+footer {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 66px;
+  padding-bottom: 29px;
+}
+
+.container {
+  max-width: var(--max-width);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+}
+
+.credit {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white);
+}
+
+@media screen and (max-width: 375px) {
+  footer {
+    padding-bottom: 66px;
+  }
+  .credit {
+    font-size: 12px;
+  }
+}
