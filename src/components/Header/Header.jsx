@@ -15,7 +15,7 @@ const Header = () => {
             {/* redirect to home and if is active page add a bottom border  */}
             <NavLink
               className={({ isActive }) =>
-                isActive && styles.active 
+                isActive ? styles.active : undefined 
               }
               to="/home"
               >
@@ -26,7 +26,7 @@ const Header = () => {
             {/* redirect to about and if is active page add a bottom border  */}
             <NavLink
               className={({ isActive }) =>
-                isActive && styles.active
+                isActive ? styles.active : undefined 
               }
               to="/about"
             >

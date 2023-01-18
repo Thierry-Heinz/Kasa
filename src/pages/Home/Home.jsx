@@ -13,6 +13,7 @@ const Home = () => {
       <Banner
         mt={63}
         title="Chez vous, partout et ailleurs"
+        alt="Bannière de la page d'accueil"
         imgsrc={HomeBannerSrc}
       />
       <section className={styles.home__hostingSection}>

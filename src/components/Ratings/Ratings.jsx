@@ -5,7 +5,7 @@ import redStar from '../../assets/red-star.svg'
 const Ratings = ({ rating }) => {
   const onTotal = 5;
 
-  // display a number of either red or grey star out of five, frm rating data
+  // display a number of either red or grey star out of five, fom rating data
   return (
     <div className={styles.ratings}>
       {[...Array(onTotal)].map((_, i) => {

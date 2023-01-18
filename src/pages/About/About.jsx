@@ -2,6 +2,7 @@
 import Banner from '../../components/Banner'
 import Collapse from '../../components/Collapse'
 import AboutBanner from '../../assets/AboutBanner.jpg'
+import AboutBannerXS from '../../assets/AboutBanner-mobile.jpg'
 
 import styles from './about.module.css'
 import utils from '../../utils.module.css'
@@ -37,7 +38,7 @@ const data = [
 const About = () => {
   return (
     <main className={styles.about}>
-      <Banner imgsrc={AboutBanner} />
+      <Banner alt="Bannière de la page à propos" imgsrc={AboutBanner} imgsrcXS={AboutBannerXS} />
       <h1 className={utils.screenReader}>About</h1>
       <div className={styles.collapses}>
         {data.map((data) => (

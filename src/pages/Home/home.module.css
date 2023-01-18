@@ -26,7 +26,7 @@
     gap: 45px;
   }
 }
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 768px) {
   .home__hostingSection {
     grid-template-columns: 1fr;
     padding: 25px;

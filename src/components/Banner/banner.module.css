@@ -17,6 +17,11 @@
   font-size: 48px;
   z-index: 200;
 }
+.banner picture {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
 
 .banner__img {
   height: 100%;

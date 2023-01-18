@@ -63,15 +63,16 @@ img {
 .controls button:hover {
   cursor: pointer;
 }
+@media screen and (max-width: 768px) {
+   .counter {
+    display: none;
+  }
+}
 
 @media screen and (max-width: 375px) {
   .slideshow {
     height: 255px;
-  }
-
-  .counter {
-    display: none;
-  }
+  } 
   .controls button {
     width: 11.67px;
   }

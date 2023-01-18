@@ -16,7 +16,7 @@ const Hosting = () => {
   // instantiate useNavigate
   const navigate = useNavigate()
 
-  //if no hosting data was found go to error page (caught pby the catch all on Routing Component)
+  //if no hosting data was found go to error page (caught by the catch all on Routing Component)
   useEffect(() => {
     if(!hosting){
       navigate('/error')
@@ -55,8 +55,8 @@ const Hosting = () => {
           </div>
         </header>
         <div className={styles.infos}>
-          <Collapse header="équipements" content={hosting.equipments} />
           <Collapse header="description" content={hosting.description} />
+          <Collapse header="équipements" content={hosting.equipments} />
         </div>
       </main>
     )
