@@ -12,7 +12,6 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 50px;
   box-sizing: content-box;
-  margin-bottom: 31px;
   background-color: var(--light-grey);
 }
 
